@@ -1,0 +1,5 @@
+- индексы
+- СТЕ (посмотреть про хранение в temptable)
+- курсоры
+- (сложный запрос ) порталы - https://postgrespro.ru/docs/postgresql/9.5/protocol-overview
+- кэширование (local, shared, temptable)

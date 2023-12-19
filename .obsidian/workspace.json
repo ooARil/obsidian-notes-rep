@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Integration.md",
+                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Integration.md",
+                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Integration.md",
+                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Integration.md"
+                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md"
               }
             }
           },
@@ -164,13 +163,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "5222c0926253eac2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 367.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +189,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "145a68127a3ab4d2",
+  "active": "783624215fe6facd",
   "lastOpenFiles": [
+    "ilinskiyar/Spring/Spring Test/Integration Test (Интеграционное тестирование).md",
+    "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
+    "ilinskiyar/Spring/Spring Integration.md",
     "obsidian-notes-rep",
     "Миграция.md",
     "Без названия 5.md",
@@ -194,7 +204,6 @@
     "Без названия.md",
     "2023-09-03.md",
     "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
-    "ilinskiyar/Spring/Spring Test/Integration Test (Интеграционное тестирование).md",
     "Pasted image 20231218203328.png",
     "Pasted image 20231218203309.png",
     "Pasted image 20231218203305.png",
@@ -207,7 +216,6 @@
     "ilinskiyar/Spring/Spring Test",
     "Pasted image 20231217150718.png",
     "ilinskiyar/Data Bases/Общее.md",
-    "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
     "ilinskiyar/Message Brokers/Apache Kafka.md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Оптимизация PosgreSQL.md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Оконные функции.md",
@@ -216,7 +224,6 @@
     "ilinskiyar/Message Brokers/RabbitMQ.md",
     "ilinskiyar/Java",
     "ilinskiyar/Message Brokers",
-    "ilinskiyar/Spring/Spring Integration.md",
     "ilinskiyar/Spring",
     "ilinskiyar/Data Bases/NoSQL",
     "ilinskiyar/Data Bases/SQL",
@@ -228,7 +235,6 @@
     "Stuff/Покупка стола.md",
     "ilinskiyar/Java/MapStruct.md",
     "Смена ДУЛ.md",
-    "Stuff",
-    "ilinskiyar"
+    "Stuff"
   ]
 }

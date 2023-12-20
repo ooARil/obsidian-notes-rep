@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
+                "file": "ilinskiyar/Message Brokers/Apache Kafka.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
+                "file": "ilinskiyar/Message Brokers/Apache Kafka.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md"
+                "file": "ilinskiyar/Message Brokers/Apache Kafka.md"
               }
             }
           },
@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,7 +190,7 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "783624215fe6facd",
+  "active": "5222c0926253eac2",
   "lastOpenFiles": [
     "ilinskiyar/Spring/Spring Test/Integration Test (Интеграционное тестирование).md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",

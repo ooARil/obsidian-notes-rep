@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 315.5
   },
   "right": {
     "id": "5ec06edcb85f08b3",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Message Brokers/Apache Kafka.md",
+                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Message Brokers/Apache Kafka.md",
+                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ilinskiyar/Message Brokers/Apache Kafka.md"
+                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md"
               }
             }
           },
@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,8 +189,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "5222c0926253eac2",
+  "active": "783624215fe6facd",
   "lastOpenFiles": [
+    "ilinskiyar/Message Brokers/Apache Kafka.md",
     "ilinskiyar/Spring/Spring Test/Integration Test (Интеграционное тестирование).md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
     "ilinskiyar/Spring/Spring Integration.md",
@@ -217,7 +217,6 @@
     "ilinskiyar/Spring/Spring Test",
     "Pasted image 20231217150718.png",
     "ilinskiyar/Data Bases/Общее.md",
-    "ilinskiyar/Message Brokers/Apache Kafka.md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Оптимизация PosgreSQL.md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Оконные функции.md",
     "Pasted image 20231212003224.png",

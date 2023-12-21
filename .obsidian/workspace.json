@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
-                "mode": "source",
+                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "WebMvcTest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
+                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
+                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md"
+                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md"
               }
             }
           },
@@ -177,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,10 +191,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "783624215fe6facd",
+  "active": "145a68127a3ab4d2",
   "lastOpenFiles": [
-    "ilinskiyar/Message Brokers/Apache Kafka.md",
     "ilinskiyar/Spring/Spring Test/Integration Test (Интеграционное тестирование).md",
+    "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
+    "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
+    "ilinskiyar/Message Brokers/Apache Kafka.md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
     "ilinskiyar/Spring/Spring Integration.md",
     "obsidian-notes-rep",
@@ -204,7 +208,6 @@
     "Без названия 1.md",
     "Без названия.md",
     "2023-09-03.md",
-    "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
     "Pasted image 20231218203328.png",
     "Pasted image 20231218203309.png",
     "Pasted image 20231218203305.png",
@@ -212,7 +215,6 @@
     "Pasted image 20231218203253.png",
     "Pasted image 20231218203242.png",
     "ilinskiyar/Spring/Spring Test/Общее.md",
-    "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
     "ilinskiyar/Spring/Spring Batch.md",
     "ilinskiyar/Spring/Spring Test",
     "Pasted image 20231217150718.png",

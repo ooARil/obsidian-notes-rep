@@ -1,64 +1,35 @@
 {
   "main": {
-    "id": "e79ddd0351178224",
+    "id": "e2a901472e744de4",
     "type": "split",
     "children": [
       {
-        "id": "9cddd042824608d3",
+        "id": "71a2512ea92eff8c",
         "type": "tabs",
         "children": [
           {
-            "id": "02f378105e867f1d",
+            "id": "444c81f5caf7daa1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ilinskiyar/Message Brokers/Apache Kafka.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "783624215fe6facd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b605423a23cd495",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ebca76fda80a56a4",
+    "id": "734f3f46fc5104b3",
     "type": "split",
     "children": [
       {
-        "id": "411b531ae146dcd0",
+        "id": "84bf396748d638f8",
         "type": "tabs",
         "children": [
           {
-            "id": "becc4a4be0e066d8",
+            "id": "d756d3bf69c36303",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,12 +39,12 @@
             }
           },
           {
-            "id": "145a68127a3ab4d2",
+            "id": "3a9f266cc7c18865",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "WebMvcTest",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,35 +54,33 @@
             }
           },
           {
-            "id": "ec72adbe745f50d6",
+            "id": "e726f557ef4df893",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 303.5
   },
   "right": {
-    "id": "5ec06edcb85f08b3",
+    "id": "778d1b89e2513be8",
     "type": "split",
     "children": [
       {
-        "id": "918b0f0184156420",
+        "id": "6d17559dd4b83722",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9d35a34e4c6543",
+            "id": "f5b3d1cdb0eaa905",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,19 +92,18 @@
             }
           },
           {
-            "id": "2bcf66ed88273221",
+            "id": "5d194cefa6821d3f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6fedfcd40f845286",
+            "id": "9f7afdd91bce0ae4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -146,27 +114,15 @@
             }
           },
           {
-            "id": "e66d0ab23d64b158",
+            "id": "0db3f305cbbb7488",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md"
-              }
+              "state": {}
             }
           },
           {
-            "id": "2c24e6f7549db56f",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          },
-          {
-            "id": "5222c0926253eac2",
+            "id": "983424898e78630b",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -174,12 +130,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 534.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,52 +146,53 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "145a68127a3ab4d2",
+  "active": "444c81f5caf7daa1",
   "lastOpenFiles": [
-    "ilinskiyar/Spring/Spring Test/Integration Test (Интеграционное тестирование).md",
-    "ilinskiyar/Spring/Spring Test/Test containers (Использование тест-контейнеров).md",
-    "ilinskiyar/Spring/Spring Test/JUnit (Модульные тесты).md",
-    "ilinskiyar/Message Brokers/Apache Kafka.md",
-    "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
-    "ilinskiyar/Spring/Spring Integration.md",
-    "obsidian-notes-rep",
-    "Миграция.md",
-    "Без названия 5.md",
-    "Без названия 4.md",
-    "Без названия 3.md",
-    "Без названия 2.md",
-    "Без названия 1.md",
-    "Без названия.md",
-    "2023-09-03.md",
-    "Pasted image 20231218203328.png",
-    "Pasted image 20231218203309.png",
-    "Pasted image 20231218203305.png",
-    "Pasted image 20231218203255.png",
-    "Pasted image 20231218203253.png",
-    "Pasted image 20231218203242.png",
-    "ilinskiyar/Spring/Spring Test/Общее.md",
-    "ilinskiyar/Spring/Spring Batch.md",
-    "ilinskiyar/Spring/Spring Test",
-    "Pasted image 20231217150718.png",
+    "ilinskiyar/Spring/Spring Boot/26. Event Listeners.md",
     "ilinskiyar/Data Bases/Общее.md",
+    "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Оптимизация PosgreSQL.md",
     "ilinskiyar/Data Bases/SQL/PostgreSQL/Оконные функции.md",
-    "Pasted image 20231212003224.png",
-    "Pasted image 20231212001526.png",
-    "ilinskiyar/Message Brokers/RabbitMQ.md",
-    "ilinskiyar/Java",
-    "ilinskiyar/Message Brokers",
-    "ilinskiyar/Spring",
-    "ilinskiyar/Data Bases/NoSQL",
-    "ilinskiyar/Data Bases/SQL",
-    "ilinskiyar/Data Bases",
-    "ilinskiyar/Data Bases/SQL/PostgreSQL",
-    "ilinskiyar/ИПР.md",
-    "ilinskiyar/Стратегия обучения.md",
-    "Pasted image 20231206224849.png",
-    "Stuff/Покупка стола.md",
+    "ilinskiyar/Работа/ЦПОиБА ЦИК.md",
+    "ilinskiyar/Работа/Задача без джиры.md",
+    "ilinskiyar/Java/Интересные штуки/var.md",
+    "ilinskiyar/Java/Java SPI.md",
     "ilinskiyar/Java/MapStruct.md",
-    "Смена ДУЛ.md",
-    "Stuff"
+    "ilinskiyar/Нужно сделать заметки.md",
+    "ilinskiyar/Spring/Spring Boot/25. Profiles.md",
+    "ilinskiyar/Spring/Spring Boot/11. Annotated based config.md",
+    "ilinskiyar/Spring/Spring Boot/10. BeanFactoryPostProcessor (BFPP).md",
+    "ilinskiyar/Spring/Spring Boot/12. BeanPostProcessor (BPP).md",
+    "image_2024-04-11_12-13-13.png",
+    "Pasted image 20240415235531.png",
+    "Pasted image 20240415235415.png",
+    "Pasted image 20240415235308.png",
+    "Pasted image 20240415235231.png",
+    "Pasted image 20240415235111.png",
+    "Pasted image 20240415235045.png",
+    "Pasted image 20240415234940.png",
+    "Pasted image 20240415234939.png",
+    "Pasted image 20240415234937.png",
+    "ilinskiyar/Spring/Spring Boot/24. @Bean.md",
+    "Без названия 1.md",
+    "ilinskiyar/Spring/Spring Boot/1. IOC, DI, IOC Container.md",
+    "ilinskiyar/Spring/Spring Boot/3. Внедрение зависимостей с помощью конструктора - XML.md",
+    "ilinskiyar/Spring/Spring Boot/2. XML based config.md",
+    "ilinskiyar/Spring/Spring Boot/4. Внедрение зависимостей с помощью фабричного метода - XML.md",
+    "ilinskiyar/Spring/Spring Boot/5. Внедрение зависимостей с помощью сэттеров - XML.md",
+    "ilinskiyar/Spring/Spring Boot/6. Жизненный цикл bean-ов.md",
+    "ilinskiyar/Spring/Spring Boot/7. Bean Scopes (область видимость bean-а).md",
+    "ilinskiyar/Spring/Spring Boot/8. Жизненные циклы bean-ов (Callbacks).md",
+    "ilinskiyar/Spring/Spring Boot/9. Внедрение зависимостей с помощью property-файла.md",
+    "Без названия",
+    "ilinskiyar/Работа",
+    "ilinskiyar/Java/Proxy",
+    "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark/sql_create_table.txt",
+    "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark",
+    "nshikula/data (тут они лежат, просто obsidian их не види)",
+    "nshikula",
+    "Новая папка",
+    "ilinskiyar/Spring/Spring Boot",
+    "ilinskiyar/Java/Интересные штуки"
   ]
 }

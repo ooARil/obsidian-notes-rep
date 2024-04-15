@@ -1,0 +1,181 @@
+set search_path to "reg_db_tests_and_benchmarking";
+
+-- Чтобы создавать одни и те же таблицы через функцию
+CREATE OR REPLACE FUNCTION reg_db_tests_and_benchmarking.create_cpd_clone_table(t_name varchar(50))
+    RETURNS VOID
+    LANGUAGE plpgsql AS
+$func$
+BEGIN
+    EXECUTE format('
+    create table if not exists reg_db_tests_and_benchmarking.%I
+    (
+        core_person_document_id   bigint                   primary key,
+        type_id                   bigint,
+        src_id                    bigint                   default -1 not null,
+        doc_no                    varchar(128),
+        series_code               varchar(128),
+        first_name                varchar(256) not null,
+        last_name                 varchar(256) not null,
+        middle_name               varchar(256),
+        birthday_dt               date,
+        create_dttm               timestamp with time zone default now(),
+        modify_dttm               timestamp with time zone default now(),
+        action_ind                varchar(1)               default ''I'' not null,
+        citizenship_id            bigint,
+        gender_id                 bigint,
+        person_id                 bigint                   default -1 not null,
+        issue_dt                  date,
+        issue_place_desc          text,
+        birth_place_desc          text,
+        birth_date_integrity      integer                  default 3                                                          not null,
+        last_name_lat             varchar(256),
+        first_name_lat            varchar(256),
+        middle_name_lat           varchar(256),
+        birth_country_id          bigint,
+        snils_code                varchar(128),
+        birth_place_region_desc   text,
+        birth_place_area_desc     text,
+        birth_place_city_desc     text,
+        birth_place_locality_desc text,
+        authority_code            varchar(128)             default ''N/D'',
+        valid_to_dt               date,
+        extended_to_dt            date,
+        version                   integer                  default 1 not null
+    );
+
+    create index if not exists core_person_1_ix
+        on reg_db_tests_and_benchmarking.%I (doc_no, series_code);
+
+    create index if not exists core_person_2_ix
+        on reg_db_tests_and_benchmarking.%I (last_name_lat, first_name_lat, middle_name_lat);
+
+    create index if not exists cpd_citizenship_id_ix
+        on reg_db_tests_and_benchmarking.%I (citizenship_id);
+
+    create index if not exists cpd_middle_name_ix
+        on reg_db_tests_and_benchmarking.%I (middle_name);
+
+    create index if not exists cpdocument_birthday_ix
+        on reg_db_tests_and_benchmarking.%I (birthday_dt);
+
+    create index if not exists cpdocument_first_name_ix
+        on reg_db_tests_and_benchmarking.%I (first_name);
+
+    create index if not exists cpdocument_first_name_lower_ix
+        on reg_db_tests_and_benchmarking.%I (lower(first_name::text));
+
+    create index if not exists cpdocument_last_name_ix
+        on reg_db_tests_and_benchmarking.%I (last_name);
+
+    create index if not exists cpdocument_last_name_lower_ix
+        on reg_db_tests_and_benchmarking.%I (lower(last_name::text));
+
+    create index if not exists cpdocument_middle_name_lower_ix
+        on reg_db_tests_and_benchmarking.%I (lower(middle_name::text));
+
+    create index if not exists core_person_document_type_id_citizenship_id_birthday_dt_idx
+        on reg_db_tests_and_benchmarking.%I (type_id, citizenship_id, birthday_dt);
+
+    create index if not exists cpd_type_cit_birthdt_101_ix
+        on reg_db_tests_and_benchmarking.%I (type_id, citizenship_id, birthday_dt);
+
+    create index if not exists cpd_type_cit_birthdt_102_ix
+        on reg_db_tests_and_benchmarking.%I (core_person_document_id, type_id, citizenship_id, birthday_dt);
+
+    create index if not exists cpd_type_cit_birthdt_103_ix
+        on reg_db_tests_and_benchmarking.%I (type_id, birthday_dt)
+        where (citizenship_id = ''2408919319913174122''::bigint);
+
+    create index if not exists cpd_type_cit_birthdt_104_ix
+        on reg_db_tests_and_benchmarking.%I (birthday_dt)
+        where ((citizenship_id = ''2408919319913174122''::bigint) AND (type_id = ''2398686955786212605''::bigint));
+
+    create index if not exists cpd_type_cit_birthdt_105_ix
+        on reg_db_tests_and_benchmarking.%I (core_person_document_id, birthday_dt)
+        where ((citizenship_id = ''2408919319913174122''::bigint) AND (type_id = ''2398686955786212605''::bigint));
+
+    create unique index if not exists cpd_test_for_journal_1_ix
+        on reg_db_tests_and_benchmarking.%I (lower(last_name::text), lower(first_name::text), core_person_document_id,
+                                              lower(middle_name::text), birthday_dt, person_id);
+
+    create unique index if not exists cpd_test_for_journal_2_ix
+        on reg_db_tests_and_benchmarking.%I (lower(last_name::text), core_person_document_id, lower(first_name::text),
+                                              lower(middle_name::text), birthday_dt, person_id);
+
+    create unique index if not exists cpd_test_for_journal_3_ix
+        on reg_db_tests_and_benchmarking.%I (lower(last_name::text), lower(first_name::text), person_id,
+                                              lower(middle_name::text), birthday_dt, core_person_document_id);
+
+    create unique index if not exists cpd_for_journal_3_ix
+        on reg_db_tests_and_benchmarking.%I (person_id, lower(last_name::text), core_person_document_id);
+
+    create index if not exists for_dossier_ix
+        on reg_db_tests_and_benchmarking.%I (lower(doc_no::text), birthday_dt);
+
+    create index if not exists for_dossier_2_ix
+        on reg_db_tests_and_benchmarking.%I (lower(doc_no::text), birthday_dt, lower(series_code::text));
+
+    create index if not exists for_dossier_3_ix
+        on reg_db_tests_and_benchmarking.%I (lower(doc_no::text) asc, lower(series_code::text) asc, modify_dttm desc);  '
+
+        , 'test_inserts_' || t_name
+        , 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name
+        , 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name
+        , 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name
+        , 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name
+        , 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name
+        , 'test_inserts_' || t_name, 'test_inserts_' || t_name, 'test_inserts_' || t_name);
+END
+$func$;
+
+select reg_db_tests_and_benchmarking.create_cpd_clone_table('case1');
+select reg_db_tests_and_benchmarking.create_cpd_clone_table('case2');
+select reg_db_tests_and_benchmarking.create_cpd_clone_table('case3_1');
+select reg_db_tests_and_benchmarking.create_cpd_clone_table('case3_2');
+select reg_db_tests_and_benchmarking.create_cpd_clone_table('case4');
+select reg_db_tests_and_benchmarking.create_cpd_clone_table('case5');
+select reg_db_tests_and_benchmarking.create_cpd_clone_table('case6');
+
+insert into reg_db_tests_and_benchmarking.test_inserts_case1
+select * from registration.core_person_document
+order by core_person_document_id ASC
+limit 100000;
+
+insert into reg_db_tests_and_benchmarking.test_inserts_case2
+select * from registration.core_person_document
+order by core_person_document_id ASC
+limit 100000;
+
+insert into reg_db_tests_and_benchmarking.test_inserts_case3_1
+select * from registration.core_person_document
+order by core_person_document_id ASC
+limit 100000;
+
+insert into reg_db_tests_and_benchmarking.test_inserts_case3_2
+select * from registration.core_person_document
+order by core_person_document_id ASC
+limit 100000;
+
+insert into reg_db_tests_and_benchmarking.test_inserts_case4
+select * from registration.core_person_document
+order by core_person_document_id ASC
+limit 100000;
+
+insert into reg_db_tests_and_benchmarking.test_inserts_case5
+select * from registration.core_person_document
+order by core_person_document_id ASC
+limit 100000;
+
+insert into reg_db_tests_and_benchmarking.test_inserts_case6
+select * from registration.core_person_document
+order by core_person_document_id ASC
+limit 100000;
+
+select
+    (select count(*) from reg_db_tests_and_benchmarking.test_inserts_case1) as case1_table,
+    (select count(*) from reg_db_tests_and_benchmarking.test_inserts_case2) as case2_table,
+    (select count(*) from reg_db_tests_and_benchmarking.test_inserts_case3_1) as case3_1_table,
+    (select count(*) from reg_db_tests_and_benchmarking.test_inserts_case3_2) as case3_2_table,
+    (select count(*) from reg_db_tests_and_benchmarking.test_inserts_case4) as case4_table,
+    (select count(*) from reg_db_tests_and_benchmarking.test_inserts_case5) as case5_table,
+    (select count(*) from reg_db_tests_and_benchmarking.test_inserts_case6) as case6_table;

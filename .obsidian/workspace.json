@@ -4,18 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "71a2512ea92eff8c",
+        "id": "5e6211b7f259186c",
         "type": "tabs",
         "children": [
           {
-            "id": "444c81f5caf7daa1",
+            "id": "8314908606f40d03",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ilinskiyar/Интересные штуки/var.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c35d7c5a75e02201",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ilinskiyar/Spring/Spring Boot/27. Spring Boot - введение.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ff1c88868a67b0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ilinskiyar/Spring/Spring Boot/28. Conditional.md"
+              }
             }
           },
           {
@@ -134,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 534.5
+    "width": 528.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,44 +179,45 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "444c81f5caf7daa1",
+  "active": "1ff1c88868a67b0b",
   "lastOpenFiles": [
-    "ilinskiyar/Spring/Spring Boot/26. Event Listeners.md",
+    "ilinskiyar/Spring/Spring Boot/27. Spring Boot - введение.md",
+    "ilinskiyar/Spring/Spring Core/26. Event Listeners.md",
+    "ilinskiyar/Spring/Spring Core/1. IOC, DI, IOC Container.md",
+    "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
+    "Pasted image 20240420191910.png",
+    "Pasted image 20240420191750.png",
+    "Pasted image 20240420190931.png",
+    "Pasted image 20240420190851.png",
+    "Pasted image 20240420190720.png",
+    "Pasted image 20240420190657.png",
+    "Pasted image 20240420190603.png",
+    "Pasted image 20240420190508.png",
+    "Pasted image 20240420190315.png",
+    "Pasted image 20240420190221.png",
+    "ilinskiyar/Spring/Spring Boot",
+    "ilinskiyar/Spring/Spring Core/11. Annotated based config.md",
+    "ilinskiyar/Интересные штуки/ObjectMapper регистрация модулей (расширение функциональности Jackson).md",
+    "ilinskiyar/Интересные штуки/var.md",
+    "ilinskiyar/Че надо изучить.md",
+    "ilinskiyar/Нужно сделать заметки.md",
+    "ilinskiyar/Spring/Spring Test/2. Integration Test (Интеграционное тестирование).md",
+    "ilinskiyar/Spring/Spring Test/3. Test containers (Использование тест-контейнеров).md",
+    "ilinskiyar/Spring/Spring Test/Общее.md",
+    "ilinskiyar/Spring/Spring Test/1. JUnit (Модульные тесты).md",
     "ilinskiyar/Data Bases/Общее.md",
-    "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
-    "ilinskiyar/Data Bases/SQL/PostgreSQL/Оптимизация PosgreSQL.md",
-    "ilinskiyar/Data Bases/SQL/PostgreSQL/Оконные функции.md",
     "ilinskiyar/Работа/ЦПОиБА ЦИК.md",
     "ilinskiyar/Работа/Задача без джиры.md",
-    "ilinskiyar/Java/Интересные штуки/var.md",
-    "ilinskiyar/Java/Java SPI.md",
-    "ilinskiyar/Java/MapStruct.md",
-    "ilinskiyar/Нужно сделать заметки.md",
-    "ilinskiyar/Spring/Spring Boot/25. Profiles.md",
-    "ilinskiyar/Spring/Spring Boot/11. Annotated based config.md",
-    "ilinskiyar/Spring/Spring Boot/10. BeanFactoryPostProcessor (BFPP).md",
-    "ilinskiyar/Spring/Spring Boot/12. BeanPostProcessor (BPP).md",
-    "image_2024-04-11_12-13-13.png",
-    "Pasted image 20240415235531.png",
-    "Pasted image 20240415235415.png",
-    "Pasted image 20240415235308.png",
-    "Pasted image 20240415235231.png",
-    "Pasted image 20240415235111.png",
-    "Pasted image 20240415235045.png",
-    "Pasted image 20240415234940.png",
-    "Pasted image 20240415234939.png",
-    "Pasted image 20240415234937.png",
-    "ilinskiyar/Spring/Spring Boot/24. @Bean.md",
-    "Без названия 1.md",
-    "ilinskiyar/Spring/Spring Boot/1. IOC, DI, IOC Container.md",
-    "ilinskiyar/Spring/Spring Boot/3. Внедрение зависимостей с помощью конструктора - XML.md",
-    "ilinskiyar/Spring/Spring Boot/2. XML based config.md",
-    "ilinskiyar/Spring/Spring Boot/4. Внедрение зависимостей с помощью фабричного метода - XML.md",
-    "ilinskiyar/Spring/Spring Boot/5. Внедрение зависимостей с помощью сэттеров - XML.md",
-    "ilinskiyar/Spring/Spring Boot/6. Жизненный цикл bean-ов.md",
-    "ilinskiyar/Spring/Spring Boot/7. Bean Scopes (область видимость bean-а).md",
-    "ilinskiyar/Spring/Spring Boot/8. Жизненные циклы bean-ов (Callbacks).md",
-    "ilinskiyar/Spring/Spring Boot/9. Внедрение зависимостей с помощью property-файла.md",
+    "ilinskiyar/Spring/Spring Core/25. Profiles.md",
+    "ilinskiyar/Spring/Spring Core/23. Import & ImportResource.md",
+    "ilinskiyar/Spring/Spring Core/10. BeanFactoryPostProcessor (BFPP).md",
+    "ilinskiyar/Spring/Spring Core/12. BeanPostProcessor (BPP).md",
+    "ilinskiyar/Spring/Spring Core/18. Bean Definition Readers.md",
+    "ilinskiyar/Spring/Spring Core/19. Type Filters.md",
+    "ilinskiyar/Spring/Spring Core/20. Scope.md",
+    "ilinskiyar/Spring/Spring Core/21. JSR-250 & JSR-330.md",
+    "ilinskiyar/Spring/Spring Core/22. Java based config.md",
+    "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
     "Без названия",
     "ilinskiyar/Работа",
     "ilinskiyar/Java/Proxy",
@@ -192,7 +226,6 @@
     "nshikula/data (тут они лежат, просто obsidian их не види)",
     "nshikula",
     "Новая папка",
-    "ilinskiyar/Spring/Spring Boot",
-    "ilinskiyar/Java/Интересные штуки"
+    "ilinskiyar/Spring/Spring Core"
   ]
 }

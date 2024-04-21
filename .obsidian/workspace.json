@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
+                "file": "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bef14154977f00ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
+                "file": "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
+                "file": "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Boot/28. Conditional.md"
+                "file": "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md"
               }
             }
           },
@@ -181,20 +193,22 @@
   },
   "active": "1ff1c88868a67b0b",
   "lastOpenFiles": [
+    "ilinskiyar/Spring/Spring Boot/29. Spring Boot Настройка проекта.md",
+    "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
+    "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
+    "Pasted image 20240421170620.png",
+    "Pasted image 20240421170155.png",
+    "Pasted image 20240421165847.png",
+    "Pasted image 20240421165826.png",
+    "Pasted image 20240421165755.png",
+    "Pasted image 20240421165229.png",
+    "Pasted image 20240421163702.png",
+    "Pasted image 20240421163649.png",
     "ilinskiyar/Spring/Spring Boot/27. Spring Boot - введение.md",
+    "Pasted image 20240421163103.png",
+    "Pasted image 20240421162737.png",
     "ilinskiyar/Spring/Spring Core/26. Event Listeners.md",
     "ilinskiyar/Spring/Spring Core/1. IOC, DI, IOC Container.md",
-    "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
-    "Pasted image 20240420191910.png",
-    "Pasted image 20240420191750.png",
-    "Pasted image 20240420190931.png",
-    "Pasted image 20240420190851.png",
-    "Pasted image 20240420190720.png",
-    "Pasted image 20240420190657.png",
-    "Pasted image 20240420190603.png",
-    "Pasted image 20240420190508.png",
-    "Pasted image 20240420190315.png",
-    "Pasted image 20240420190221.png",
     "ilinskiyar/Spring/Spring Boot",
     "ilinskiyar/Spring/Spring Core/11. Annotated based config.md",
     "ilinskiyar/Интересные штуки/ObjectMapper регистрация модулей (расширение функциональности Jackson).md",
@@ -215,9 +229,6 @@
     "ilinskiyar/Spring/Spring Core/18. Bean Definition Readers.md",
     "ilinskiyar/Spring/Spring Core/19. Type Filters.md",
     "ilinskiyar/Spring/Spring Core/20. Scope.md",
-    "ilinskiyar/Spring/Spring Core/21. JSR-250 & JSR-330.md",
-    "ilinskiyar/Spring/Spring Core/22. Java based config.md",
-    "ilinskiyar/Data Bases/SQL/PostgreSQL/Хранимые процедуры.md",
     "Без названия",
     "ilinskiyar/Работа",
     "ilinskiyar/Java/Proxy",

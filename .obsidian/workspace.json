@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ilinskiyar/Lombok/RequiredArgsConstructor.md",
+                "file": "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Lombok/RequiredArgsConstructor.md",
+                "file": "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Lombok/RequiredArgsConstructor.md",
+                "file": "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ilinskiyar/Lombok/RequiredArgsConstructor.md"
+                "file": "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md"
               }
             }
           },
@@ -205,23 +205,27 @@
   },
   "active": "b1cce96a7d53b468",
   "lastOpenFiles": [
-    "Pasted image 20240421195053.png",
-    "Pasted image 20240421195044.png",
-    "Pasted image 20240421193250.png",
-    "Pasted image 20240421193233.png",
-    "Pasted image 20240421193231.png",
-    "Pasted image 20240421192935.png",
-    "ilinskiyar/Lombok/lombok.config.md",
-    "Pasted image 20240421192907.png",
+    "ilinskiyar/Migration frameworks/LiquiBase/Конфигурация LiquiBase.md",
+    "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
+    "Pasted image 20240424020757.png",
+    "Pasted image 20240424020414.png",
+    "Pasted image 20240424020206.png",
+    "Pasted image 20240424020016.png",
+    "Pasted image 20240424015038.png",
+    "Pasted image 20240424014916.png",
+    "Pasted image 20240424014907.png",
+    "Pasted image 20240424014845.png",
+    "Pasted image 20240424014844.png",
+    "Pasted image 20240424014622.png",
+    "ilinskiyar/Migration frameworks",
+    "ilinskiyar/Spring/Spring Boot/31. Properties.md",
+    "ilinskiyar/Migration frameworks/LiquiBase",
+    "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
     "ilinskiyar/Lombok/RequiredArgsConstructor.md",
-    "Pasted image 20240421191437.png",
-    "Pasted image 20240421191237.png",
-    "Pasted image 20240421191116.png",
+    "ilinskiyar/Lombok/lombok.config.md",
     "ilinskiyar/Lombok",
     "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
     "ilinskiyar/Spring/Spring Boot/29. Spring Boot Настройка проекта.md",
-    "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
-    "Pasted image 20240421170620.png",
     "ilinskiyar/Spring/Spring Boot/27. Spring Boot - введение.md",
     "ilinskiyar/Spring/Spring Core/26. Event Listeners.md",
     "ilinskiyar/Spring/Spring Core/1. IOC, DI, IOC Container.md",
@@ -240,16 +244,11 @@
     "ilinskiyar/Работа/Задача без джиры.md",
     "ilinskiyar/Spring/Spring Core/25. Profiles.md",
     "ilinskiyar/Spring/Spring Core/23. Import & ImportResource.md",
-    "ilinskiyar/Spring/Spring Core/10. BeanFactoryPostProcessor (BFPP).md",
-    "ilinskiyar/Spring/Spring Core/12. BeanPostProcessor (BPP).md",
-    "ilinskiyar/Spring/Spring Core/18. Bean Definition Readers.md",
     "ilinskiyar/Работа",
     "ilinskiyar/Java/Proxy",
     "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark/sql_create_table.txt",
     "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark",
     "nshikula/data (тут они лежат, просто obsidian их не види)",
-    "nshikula",
-    "Новая папка",
-    "ilinskiyar/Spring/Spring Core"
+    "nshikula"
   ]
 }

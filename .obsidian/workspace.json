@@ -11,64 +11,14 @@
             "id": "8314908606f40d03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "ilinskiyar/Интересные штуки/var.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c35d7c5a75e02201",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ilinskiyar/Spring/Spring Boot/27. Spring Boot - введение.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ff1c88868a67b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1cce96a7d53b468",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bef14154977f00ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
-                "mode": "source",
-                "source": false
+                "file": "ilinskiyar/README/LiquiBase.md",
+                "staged": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md"
-              }
+              "state": {}
             }
           },
           {
@@ -203,20 +149,33 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "b1cce96a7d53b468",
+  "active": "8314908606f40d03",
   "lastOpenFiles": [
-    "ilinskiyar/Migration frameworks/LiquiBase/Конфигурация LiquiBase.md",
+    "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
+    "Pasted image 20240430204540.png",
+    "Pasted image 20240430204456.png",
+    "Pasted image 20240430204440.png",
+    "Pasted image 20240430204319.png",
+    "Pasted image 20240430204001.png",
+    "Pasted image 20240430203803.png",
+    "Pasted image 20240430203746.png",
+    "Pasted image 20240430203447.png",
+    "Pasted image 20240430203245.png",
+    "Pasted image 20240430202956.png",
+    "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
+    "ilinskiyar/Spring/Spring Core/6. Жизненный цикл bean-ов.md",
+    "Без названия.md",
+    "ilinskiyar/Spring/Spring Security",
+    "ilinskiyar/Интересные штуки/var.md",
+    "ilinskiyar/Spring/Spring Boot/27. Spring Boot - введение.md",
+    "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
+    "ilinskiyar/Spring/Spring Core/18. Bean Definition Readers.md",
+    "ilinskiyar/README/LiquiBase.md",
+    "ilinskiyar/Spring/Spring Core/9. Внедрение зависимостей с помощью property-файла.md",
+    "ilinskiyar/Spring/Spring Core/19. Type Filters.md",
     "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
-    "Pasted image 20240424020757.png",
-    "Pasted image 20240424020414.png",
-    "Pasted image 20240424020206.png",
-    "Pasted image 20240424020016.png",
-    "Pasted image 20240424015038.png",
-    "Pasted image 20240424014916.png",
-    "Pasted image 20240424014907.png",
-    "Pasted image 20240424014845.png",
-    "Pasted image 20240424014844.png",
-    "Pasted image 20240424014622.png",
+    "ilinskiyar/README",
+    "ilinskiyar/Migration frameworks/LiquiBase/Конфигурация LiquiBase.md",
     "ilinskiyar/Migration frameworks",
     "ilinskiyar/Spring/Spring Boot/31. Properties.md",
     "ilinskiyar/Migration frameworks/LiquiBase",
@@ -224,31 +183,18 @@
     "ilinskiyar/Lombok/RequiredArgsConstructor.md",
     "ilinskiyar/Lombok/lombok.config.md",
     "ilinskiyar/Lombok",
-    "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
     "ilinskiyar/Spring/Spring Boot/29. Spring Boot Настройка проекта.md",
-    "ilinskiyar/Spring/Spring Boot/27. Spring Boot - введение.md",
     "ilinskiyar/Spring/Spring Core/26. Event Listeners.md",
     "ilinskiyar/Spring/Spring Core/1. IOC, DI, IOC Container.md",
     "ilinskiyar/Spring/Spring Boot",
     "ilinskiyar/Spring/Spring Core/11. Annotated based config.md",
     "ilinskiyar/Интересные штуки/ObjectMapper регистрация модулей (расширение функциональности Jackson).md",
-    "ilinskiyar/Интересные штуки/var.md",
     "ilinskiyar/Че надо изучить.md",
     "ilinskiyar/Нужно сделать заметки.md",
     "ilinskiyar/Spring/Spring Test/2. Integration Test (Интеграционное тестирование).md",
-    "ilinskiyar/Spring/Spring Test/3. Test containers (Использование тест-контейнеров).md",
-    "ilinskiyar/Spring/Spring Test/Общее.md",
-    "ilinskiyar/Spring/Spring Test/1. JUnit (Модульные тесты).md",
-    "ilinskiyar/Data Bases/Общее.md",
-    "ilinskiyar/Работа/ЦПОиБА ЦИК.md",
-    "ilinskiyar/Работа/Задача без джиры.md",
-    "ilinskiyar/Spring/Spring Core/25. Profiles.md",
-    "ilinskiyar/Spring/Spring Core/23. Import & ImportResource.md",
     "ilinskiyar/Работа",
     "ilinskiyar/Java/Proxy",
     "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark/sql_create_table.txt",
-    "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark",
-    "nshikula/data (тут они лежат, просто obsidian их не види)",
-    "nshikula"
+    "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark"
   ]
 }

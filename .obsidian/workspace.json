@@ -11,10 +11,11 @@
             "id": "8314908606f40d03",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Security/4. Form Login.md",
-                "staged": false
+                "file": "ilinskiyar/Spring/Spring Security/6. Http Basic Authentication Filter.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ilinskiyar/Spring/Spring Security/6. Http Basic Authentication Filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ilinskiyar/Spring/Spring Security/6. Http Basic Authentication Filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ilinskiyar/Spring/Spring Security/6. Http Basic Authentication Filter.md"
+              }
             }
           },
           {
@@ -151,20 +156,23 @@
   },
   "active": "8314908606f40d03",
   "lastOpenFiles": [
+    "ilinskiyar/Spring/Spring Security/5. Form Login.md",
+    "ilinskiyar/Spring/Spring Security/4. DaoAuthenticationProvider.md",
+    "ilinskiyar/Spring/Spring Security/3. Username Password Authentication Filter.md",
     "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
-    "ilinskiyar/Spring/Spring Security/3. DaoAuthenticationProvider.md",
     "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
-    "ilinskiyar/Spring/Spring Security/4. Form Login.md",
-    "Pasted image 20240501160342.png",
-    "Pasted image 20240501160230.png",
-    "Pasted image 20240501152902.png",
-    "Pasted image 20240501152811.png",
-    "Pasted image 20240501152432.png",
-    "Pasted image 20240501151252.png",
-    "Pasted image 20240501151019.png",
-    "Pasted image 20240501150731.png",
-    "Pasted image 20240501150643.png",
-    "Pasted image 20240501150610.png",
+    "ilinskiyar/Spring/Spring Security/7. Password Encoder.md",
+    "ilinskiyar/Spring/Spring Security/6. Http Basic Authentication Filter.md",
+    "Pasted image 20240501233721.png",
+    "Pasted image 20240501233713.png",
+    "Pasted image 20240501233618.png",
+    "Pasted image 20240501233447.png",
+    "Pasted image 20240501233421.png",
+    "Pasted image 20240501233317.png",
+    "Pasted image 20240501233249.png",
+    "Pasted image 20240501233159.png",
+    "Pasted image 20240501232515.png",
+    "Pasted image 20240501232450.png",
     "ilinskiyar/Spring/Spring Boot/31. Properties.md",
     "ilinskiyar/Spring/Spring Core/10. BeanFactoryPostProcessor (BFPP).md",
     "ilinskiyar/Spring/Spring Core/6. Жизненный цикл bean-ов.md",
@@ -190,8 +198,6 @@
     "ilinskiyar/Spring/Spring Core/26. Event Listeners.md",
     "ilinskiyar/Spring/Spring Core/1. IOC, DI, IOC Container.md",
     "ilinskiyar/Spring/Spring Boot",
-    "ilinskiyar/Spring/Spring Core/11. Annotated based config.md",
-    "ilinskiyar/Интересные штуки/ObjectMapper регистрация модулей (расширение функциональности Jackson).md",
     "ilinskiyar/Работа",
     "ilinskiyar/Java/Proxy",
     "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark/sql_create_table.txt",

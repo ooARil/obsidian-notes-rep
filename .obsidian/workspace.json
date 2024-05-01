@@ -11,27 +11,14 @@
             "id": "8314908606f40d03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ilinskiyar/Spring/Spring Security/3. DaoAuthenticationProvider.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a113d8063ede8c3a",
-            "type": "leaf",
-            "state": {
               "type": "diff-view",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Security/3. DaoAuthenticationProvider.md",
+                "file": "ilinskiyar/Spring/Spring Security/4. Form Login.md",
                 "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,22 +149,24 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "a113d8063ede8c3a",
+  "active": "8314908606f40d03",
   "lastOpenFiles": [
-    "ilinskiyar/Spring/Spring Security/4. Form Login.md",
-    "ilinskiyar/Spring/Spring Security/3. DaoAuthenticationProvider.md",
-    "Pasted image 20240501020128.png",
-    "Pasted image 20240501015841.png",
     "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
-    "Pasted image 20240501015528.png",
-    "Pasted image 20240501015515.png",
-    "Pasted image 20240501015259.png",
-    "Pasted image 20240501015220.png",
-    "Pasted image 20240501015121.png",
-    "Pasted image 20240501014224.png",
-    "Pasted image 20240501014210.png",
-    "Pasted image 20240501014159.png",
+    "ilinskiyar/Spring/Spring Security/3. DaoAuthenticationProvider.md",
     "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
+    "ilinskiyar/Spring/Spring Security/4. Form Login.md",
+    "Pasted image 20240501160342.png",
+    "Pasted image 20240501160230.png",
+    "Pasted image 20240501152902.png",
+    "Pasted image 20240501152811.png",
+    "Pasted image 20240501152432.png",
+    "Pasted image 20240501151252.png",
+    "Pasted image 20240501151019.png",
+    "Pasted image 20240501150731.png",
+    "Pasted image 20240501150643.png",
+    "Pasted image 20240501150610.png",
+    "ilinskiyar/Spring/Spring Boot/31. Properties.md",
+    "ilinskiyar/Spring/Spring Core/10. BeanFactoryPostProcessor (BFPP).md",
     "ilinskiyar/Spring/Spring Core/6. Жизненный цикл bean-ов.md",
     "Без названия.md",
     "ilinskiyar/Spring/Spring Security",
@@ -192,7 +181,6 @@
     "ilinskiyar/README",
     "ilinskiyar/Migration frameworks/LiquiBase/Конфигурация LiquiBase.md",
     "ilinskiyar/Migration frameworks",
-    "ilinskiyar/Spring/Spring Boot/31. Properties.md",
     "ilinskiyar/Migration frameworks/LiquiBase",
     "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
     "ilinskiyar/Lombok/RequiredArgsConstructor.md",
@@ -204,8 +192,6 @@
     "ilinskiyar/Spring/Spring Boot",
     "ilinskiyar/Spring/Spring Core/11. Annotated based config.md",
     "ilinskiyar/Интересные штуки/ObjectMapper регистрация модулей (расширение функциональности Jackson).md",
-    "ilinskiyar/Че надо изучить.md",
-    "ilinskiyar/Нужно сделать заметки.md",
     "ilinskiyar/Работа",
     "ilinskiyar/Java/Proxy",
     "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark/sql_create_table.txt",

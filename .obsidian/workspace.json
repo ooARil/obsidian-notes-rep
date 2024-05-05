@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e6211b7f259186c",
+        "id": "0df5050a92c068fd",
         "type": "tabs",
         "children": [
           {
-            "id": "8314908606f40d03",
+            "id": "2474a8a5f47a3cf2",
             "type": "leaf",
             "state": {
               "type": "diff-view",
@@ -149,25 +149,26 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "8314908606f40d03",
+  "active": "2474a8a5f47a3cf2",
   "lastOpenFiles": [
+    "ilinskiyar/Spring/Spring Security/8. Logout.md",
     "ilinskiyar/Spring/Spring Security/7. Password Encoder.md",
+    "Pasted image 20240505053725.png",
+    "Pasted image 20240505053657.png",
+    "Pasted image 20240505053526.png",
+    "Pasted image 20240505053519.png",
+    "Pasted image 20240505053506.png",
+    "Pasted image 20240505053452.png",
+    "Pasted image 20240505053350.png",
+    "Pasted image 20240505051130.png",
+    "Pasted image 20240505051128.png",
+    "Pasted image 20240505050913.png",
     "ilinskiyar/Spring/Spring Security/4. DaoAuthenticationProvider.md",
-    "Pasted image 20240502005556.png",
-    "Pasted image 20240502004845.png",
-    "Pasted image 20240502004556.png",
-    "Pasted image 20240502004447.png",
-    "Pasted image 20240502004044.png",
     "ilinskiyar/Spring/Spring Security/6. Http Basic Authentication Filter.md",
     "ilinskiyar/Spring/Spring Security/5. Form Login.md",
     "ilinskiyar/Spring/Spring Security/3. Username Password Authentication Filter.md",
     "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
     "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
-    "Pasted image 20240501233721.png",
-    "Pasted image 20240501233713.png",
-    "Pasted image 20240501233618.png",
-    "Pasted image 20240501233447.png",
-    "Pasted image 20240501233421.png",
     "ilinskiyar/Spring/Spring Boot/31. Properties.md",
     "ilinskiyar/Spring/Spring Core/10. BeanFactoryPostProcessor (BFPP).md",
     "ilinskiyar/Spring/Spring Core/6. Жизненный цикл bean-ов.md",

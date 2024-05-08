@@ -11,11 +11,10 @@
             "id": "2474a8a5f47a3cf2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
                 "file": "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
-                "mode": "source",
-                "source": false
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,21 +151,21 @@
   },
   "active": "2474a8a5f47a3cf2",
   "lastOpenFiles": [
-    "ilinskiyar/Spring/Spring Security/8. Logout.md",
     "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
-    "Pasted image 20240508023522.png",
+    "Pasted image 20240508133655.png",
+    "Pasted image 20240508133549.png",
+    "Pasted image 20240508133542.png",
+    "Pasted image 20240508133110.png",
+    "Pasted image 20240508133009.png",
+    "Pasted image 20240508132925.png",
+    "Pasted image 20240508132858.png",
+    "Pasted image 20240508132748.png",
+    "Pasted image 20240508132722.png",
+    "Pasted image 20240508132626.png",
+    "ilinskiyar/Spring/Spring Security/8. Logout.md",
     "ilinskiyar/Spring/Spring Security/4. DaoAuthenticationProvider.md",
-    "Pasted image 20240508022956.png",
-    "Pasted image 20240508022939.png",
-    "Pasted image 20240508022749.png",
-    "Pasted image 20240508022128.png",
-    "Pasted image 20240508021834.png",
     "ilinskiyar/Spring/Spring Security/3. Username Password Authentication Filter.md",
     "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
-    "Pasted image 20240508020840.png",
-    "Pasted image 20240508020534.png",
-    "Pasted image 20240508020411.png",
-    "Pasted image 20240508020136.png",
     "ilinskiyar/Spring/Spring Core/12. BeanPostProcessor (BPP).md",
     "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
     "ilinskiyar/Spring/Spring Security/7. Password Encoder.md",

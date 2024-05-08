@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
+                "file": "ilinskiyar/Spring/Spring Security/10. Method Security.md",
                 "staged": false
               }
             }
@@ -151,17 +151,18 @@
   },
   "active": "2474a8a5f47a3cf2",
   "lastOpenFiles": [
+    "ilinskiyar/Spring/Spring Security/10. Method Security.md",
+    "Pasted image 20240508182514.png",
+    "Pasted image 20240508175200.png",
+    "Pasted image 20240508171329.png",
+    "Pasted image 20240508171321.png",
+    "Pasted image 20240508171128.png",
+    "Pasted image 20240508170927.png",
+    "Pasted image 20240508170925.png",
+    "Pasted image 20240508170905.png",
+    "Pasted image 20240508170849.png",
+    "Pasted image 20240508170738.png",
     "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
-    "Pasted image 20240508133655.png",
-    "Pasted image 20240508133549.png",
-    "Pasted image 20240508133542.png",
-    "Pasted image 20240508133110.png",
-    "Pasted image 20240508133009.png",
-    "Pasted image 20240508132925.png",
-    "Pasted image 20240508132858.png",
-    "Pasted image 20240508132748.png",
-    "Pasted image 20240508132722.png",
-    "Pasted image 20240508132626.png",
     "ilinskiyar/Spring/Spring Security/8. Logout.md",
     "ilinskiyar/Spring/Spring Security/4. DaoAuthenticationProvider.md",
     "ilinskiyar/Spring/Spring Security/3. Username Password Authentication Filter.md",
@@ -189,7 +190,6 @@
     "ilinskiyar/Migration frameworks",
     "ilinskiyar/Migration frameworks/LiquiBase",
     "ilinskiyar/Spring/Spring Boot/28. Conditional.md",
-    "ilinskiyar/Lombok/RequiredArgsConstructor.md",
     "ilinskiyar/Lombok",
     "ilinskiyar/Spring/Spring Boot",
     "ilinskiyar/Работа",

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0df5050a92c068fd",
+        "id": "b81e98c0ba38d9e3",
         "type": "tabs",
         "children": [
           {
-            "id": "2474a8a5f47a3cf2",
+            "id": "939bb9700af7baa8",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Security/10. Method Security.md",
+                "file": "ilinskiyar/Spring/Spring Security/12. CSRF Filter.md",
                 "staged": false
               }
             }
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 200
   },
   "right": {
     "id": "778d1b89e2513be8",
@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 528.5
+    "width": 553.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,19 +149,19 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "2474a8a5f47a3cf2",
+  "active": "939bb9700af7baa8",
   "lastOpenFiles": [
     "ilinskiyar/Spring/Spring Security/12. CSRF Filter.md",
-    "Pasted image 20240519163050.png",
-    "Pasted image 20240519162938.png",
-    "Pasted image 20240519162900.png",
-    "Pasted image 20240519162029.png",
-    "Pasted image 20240519162016.png",
-    "Pasted image 20240519161900.png",
-    "Pasted image 20240519161836.png",
-    "Pasted image 20240519161707.png",
-    "Pasted image 20240519161705.png",
-    "Pasted image 20240519161655.png",
+    "Pasted image 20240520152124.png",
+    "Pasted image 20240520152054.png",
+    "Pasted image 20240520152029.png",
+    "Pasted image 20240520151934.png",
+    "Pasted image 20240520151924.png",
+    "Pasted image 20240520151911.png",
+    "Pasted image 20240520151906.png",
+    "Pasted image 20240520151710.png",
+    "Pasted image 20240520151603.png",
+    "Pasted image 20240520151540.png",
     "ilinskiyar/Spring/Spring Security/11. Access to authenticated user.md",
     "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
     "ilinskiyar/Spring/Spring Security/8. Logout.md",

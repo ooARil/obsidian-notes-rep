@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Security/12. CSRF Filter.md",
+                "file": "ilinskiyar/Spring/Spring Security/14. OAuth-2.0..md",
                 "staged": false
               }
             }
@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 553.5
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,8 +151,17 @@
   },
   "active": "939bb9700af7baa8",
   "lastOpenFiles": [
-    "ilinskiyar/Spring/Spring Security/13. Secuirty Testing.md",
     "ilinskiyar/Spring/Spring Security/14. OAuth-2.0..md",
+    "Pasted image 20240524183559.png",
+    "ilinskiyar/Что нужно изучить за выходные.md",
+    "ilinskiyar/Че надо изучить.md",
+    "ilinskiyar/Spring/Spring Cloud/Spring Cloud Gateway/Spring Cloud Gateway.md",
+    "ilinskiyar/Keycloak",
+    "ilinskiyar/Spring/Spring Cloud/Spring Cloud Gateway",
+    "Pasted image 20240524164048.png",
+    "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
+    "ilinskiyar/Spring/Spring Cloud",
+    "ilinskiyar/Spring/Spring Security/13. Secuirty Testing.md",
     "Pasted image 20240520195010.png",
     "Pasted image 20240520194759.png",
     "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
@@ -162,13 +171,10 @@
     "Pasted image 20240520193932.png",
     "Pasted image 20240520193809.png",
     "Pasted image 20240520193807.png",
-    "Pasted image 20240520193644.png",
-    "Pasted image 20240520193523.png",
     "ilinskiyar/Spring/Spring Batch.md",
     "ilinskiyar/Spring/Spring Security/12. CSRF Filter.md",
     "ilinskiyar/Spring/Spring Security/11. Access to authenticated user.md",
     "ilinskiyar/Spring/Spring Security/8. Logout.md",
-    "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
     "ilinskiyar/Spring/Spring Security/10. Method Security.md",
     "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
     "ilinskiyar/Spring/Spring Security/4. DaoAuthenticationProvider.md",
@@ -184,18 +190,11 @@
     "ilinskiyar/Spring/Spring Security",
     "ilinskiyar/Интересные штуки/var.md",
     "ilinskiyar/Spring/Spring Boot/27. Spring Boot - введение.md",
-    "ilinskiyar/Spring/Spring Boot/30. SpringBootApplication.md",
-    "ilinskiyar/Spring/Spring Core/18. Bean Definition Readers.md",
-    "ilinskiyar/README/LiquiBase.md",
-    "ilinskiyar/Spring/Spring Core/9. Внедрение зависимостей с помощью property-файла.md",
     "ilinskiyar/README",
     "ilinskiyar/Migration frameworks",
     "ilinskiyar/Migration frameworks/LiquiBase",
     "ilinskiyar/Lombok",
     "ilinskiyar/Spring/Spring Boot",
-    "ilinskiyar/Работа",
-    "ilinskiyar/Java/Proxy",
-    "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark/sql_create_table.txt",
-    "nshikula/data (тут они лежат, просто obsidian их не види)/insert benchmark"
+    "ilinskiyar/Работа"
   ]
 }

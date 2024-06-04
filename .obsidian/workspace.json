@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "ilinskiyar/Docker/1. Основные команды.md",
+                "file": "ilinskiyar/Keycloak/Без названия.md",
                 "staged": false
               }
             }
@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 383.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,7 +151,16 @@
   },
   "active": "939bb9700af7baa8",
   "lastOpenFiles": [
+    "ilinskiyar/Keycloak/Ссылки.md",
+    "ilinskiyar/Spring/Spring Cloud/Spring Cloud Gateway/Spring Cloud Gateway.md",
+    "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
     "ilinskiyar/Spring/Spring Security/14. OAuth-2.0..md",
+    "ilinskiyar/Spring/Spring Security/15. JWT.md",
+    "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
+    "ilinskiyar/Spring/Spring Core/24. @Bean.md",
+    "ilinskiyar/Spring/Spring Core/18. Bean Definition Readers.md",
+    "ilinskiyar/Spring/Spring Security/3. Username Password Authentication Filter.md",
+    "ilinskiyar/Spring/Spring Security/4. DaoAuthenticationProvider.md",
     "Pasted image 20240526235408.png",
     "Pasted image 20240526233237.png",
     "Pasted image 20240526233141.png",
@@ -161,9 +170,7 @@
     "ilinskiyar/Spring/Spring Security/16. SAML.md",
     "ilinskiyar/Spring/Spring Integration.md",
     "ilinskiyar/Spring/Spring Batch.md",
-    "ilinskiyar/Keycloak/Без названия.md",
     "ilinskiyar/Spring/Spring Security/7. Password Encoder.md",
-    "ilinskiyar/Spring/Spring Security/15. JWT.md",
     "Pasted image 20240526230606.png",
     "Pasted image 20240526225514.png",
     "Pasted image 20240526193536.png",
@@ -178,19 +185,13 @@
     "Pasted image 20240524183559.png",
     "ilinskiyar/Что нужно изучить за выходные.md",
     "ilinskiyar/Че надо изучить.md",
-    "ilinskiyar/Spring/Spring Cloud/Spring Cloud Gateway/Spring Cloud Gateway.md",
     "ilinskiyar/Keycloak",
     "ilinskiyar/Spring/Spring Cloud/Spring Cloud Gateway",
     "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
     "ilinskiyar/Spring/Spring Cloud",
     "ilinskiyar/Spring/Spring Security/13. Secuirty Testing.md",
-    "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
     "ilinskiyar/Spring/Spring Security/12. CSRF Filter.md",
     "ilinskiyar/Spring/Spring Security/11. Access to authenticated user.md",
-    "ilinskiyar/Spring/Spring Security/8. Logout.md",
-    "ilinskiyar/Spring/Spring Security/10. Method Security.md",
-    "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
-    "ilinskiyar/Spring/Spring Security/4. DaoAuthenticationProvider.md",
     "ilinskiyar/Spring/Spring Security",
     "ilinskiyar/README",
     "ilinskiyar/Migration frameworks",

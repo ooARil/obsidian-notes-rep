@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "ilinskiyar/Сryptography/Алгоритм асимметрического шифрования/Алгоритм шифрования RSA.md",
+                "file": ".obsidian/workspace.json",
                 "staged": false
               }
             }
@@ -22,11 +22,10 @@
             "id": "f073e9c972ec566c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
-                "mode": "source",
-                "source": false
+                "file": "ilinskiyar/Spring/Spring Security/14. OAuth-2.0..md",
+                "staged": false
               }
             }
           },
@@ -51,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,8 +183,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "939bb9700af7baa8",
+  "active": "f073e9c972ec566c",
   "lastOpenFiles": [
+    "ilinskiyar/Spring/Spring Security/14. OAuth-2.0..md",
+    "ilinskiyar/Spring/Spring Security/15. JWT.md",
+    "ilinskiyar/Keycloak/Keycloak - работа.md",
+    "ilinskiyar/Keycloak/Scopes & Roles.md",
+    "ilinskiyar/Keycloak/Ссылки.md",
+    "Pasted image 20240614183545.png",
+    "Excalidraw/Keycloak + Save Public key.md",
+    "ilinskiyar/Spring/Spring Security/9. Authorization - Architecture.md",
+    "ilinskiyar/Hibernate/Без названия.md",
     "Keycloak - работа.md",
     "Без названия 1.md",
     "Без названия.md",
@@ -193,12 +202,8 @@
     "ilinskiyar/Spring/Spring Security/3. Username Password Authentication Filter.md",
     "ilinskiyar/Spring/Spring Security/2. Authentication Filter - Architecture.md",
     "ilinskiyar/Spring/Spring Security/1. Security Starter.md",
-    "Excalidraw/Keycloak + Save Public key.md",
-    "ilinskiyar/Spring/Spring Security/15. JWT.md",
-    "ilinskiyar/Keycloak/Ссылки.md",
     "Excalidraw/Drawing 2024-06-06 15.31.38.excalidraw.md",
     "Excalidraw",
-    "ilinskiyar/Hibernate/Без названия.md",
     "ilinskiyar/Hibernate",
     "ilinskiyar/Сryptography/Алгоритм асимметрического шифрования",
     "Pasted image 20240605115252.png",
@@ -213,18 +218,12 @@
     "ilinskiyar/Spring/Spring Batch.md",
     "ilinskiyar/Spring/Кишки Spring/Spring-потрошитель часть 1.md",
     "ilinskiyar/Spring/Кишки Spring/AOP.md",
-    "ilinskiyar/Migration frameworks/LiquiBase/Конфигурация LiquiBase.md",
-    "ilinskiyar/Migration frameworks/LiquiBase/Теория LuquiBase.md",
-    "ilinskiyar/Lombok/RequiredArgsConstructor.md",
-    "ilinskiyar/Lombok/lombok.config.md",
-    "ilinskiyar/Spring/Spring Cloud/Spring Cloud Gateway/Spring Cloud Gateway.md",
     "Pasted image 20240526235408.png",
     "Pasted image 20240526233237.png",
     "Pasted image 20240526233141.png",
     "Pasted image 20240526233106.png",
     "Pasted image 20240526232942.png",
     "Pasted image 20240526232356.png",
-    "Pasted image 20240526230606.png",
     "ilinskiyar/Docker/Без названия",
     "ilinskiyar/Docker",
     "ilinskiyar/Keycloak",

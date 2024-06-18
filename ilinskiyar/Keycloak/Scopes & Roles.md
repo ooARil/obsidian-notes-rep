@@ -17,3 +17,32 @@ roles - это уже роли пользователя, они нужны чт�
 
 Однако этого можно избежать с помощью scopes:
 https://medium.com/@kasturepadmakar4u/resource-and-scope-based-authorization-in-keycloak-1fdb90408e91
+
+
+---
+
+Вот эта issue решает проблему с 2умя запросами в Keycloak на каждый пользовательский запрос:
+https://github.com/keycloak/keycloak/issues/23827
+
+https://stackoverflow.com/questions/78057633/keycloak-policy-enforcement-with-spring-cloud-gateway
+
+https://github.com/keycloak/keycloak-documentation/tree/0c427ffea17bf46e6ecfd3a8722b53ec07573b3b/authorization_services/topics
+
+
+---
+
+```json
+{"upgraded":false,"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGTnA0Zmdib0t0RHBmWGJaR0NJOFkwRHFUQlY3dDV6RkpRZWRQX1ZaLUpJIn0.eyJleHAiOjE3MTgzNTg4NzEsImlhdCI6MTcxODM1ODI3MSwiYXV0aF90aW1lIjoxNzE4MzU4MTYzLCJqdGkiOiIyMjBkOTY0My04NDNkLTQ0MmEtYjRhZi1hY2E4OGNmYzAwYjQiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODUvcmVhbG1zL3J1LWFzdHJhLWxvdy1jb2RlIiwiYXVkIjoibGNwIiwic3ViIjoiOGU3MWE3NzYtNWNmMS00MjdiLWEwYTktYTk0NmMxZDFkYTVlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibGNwIiwic2Vzc2lvbl9zdGF0ZSI6ImM1OTcxMjZkLTY1YTYtNDM5Yy04YTVkLWYxMzg0NmI5YzgxMSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo4MDgxIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLXJ1LWFzdHJhLWxvdy1jb2RlIiwib2ZmbGluZV9hY2Nlc3MiLCJhZG1pbiIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwiYXV0aG9yaXphdGlvbiI6eyJwZXJtaXNzaW9ucyI6W3sic2NvcGVzIjpbIlBPU1QiXSwicnNpZCI6IjNkYTMwN2NiLTFkYTQtNDc5Ny04NWQzLWNhYzI3NDJiNTQ5ZCIsInJzbmFtZSI6ImxjcC1yZXNvdXJjZSJ9XX0sInNjb3BlIjoiIiwic2lkIjoiYzU5NzEyNmQtNjVhNi00MzljLThhNWQtZjEzODQ2YjljODExIn0.RwqSbI_vhuMs8zK41VMRxTWYfvfqp98rk2GkeK1bWANTsAq9ypcK2-5HkuCd9d5f27sQoRSwiVxkR6rd7P_OS4v9ZarHXp3E_wgrr9loR2b-nDEkhHz2jsCC2jpCI_uiSSSQuTqxh5IrdT5fZf3AUmA7NJwM9AcoQw0tP6srHVW1ObOYyV8YUznr3poDnhcTAldJONlz3xhst0BJ1-bm03sjEQXWS6dqXCDf_dGfBmB26EsFeFZS4OJiX-Fum6Sx5d-gcA9pLinXQf1K7TZHb0NNhFumthLuHAzuzmJq671SyKAS9OtH3WsA0JNyOsi6PHF-anE0Oqfi8PyonPsmww","expires_in":600,"refresh_expires_in":1692,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0NzhhZWE5Yi1lZDg5LTQ1NTMtYTI4NS0zNGM5NjJiOGUzYmYifQ.eyJleHAiOjE3MTgzNTk5NjMsImlhdCI6MTcxODM1ODI3MSwianRpIjoiYzYyNmE5YzUtYTMyYy00YjQ4LWFjZDMtZDcxY2QyZDRjMTkxIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDg1L3JlYWxtcy9ydS1hc3RyYS1sb3ctY29kZSIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4NS9yZWFsbXMvcnUtYXN0cmEtbG93LWNvZGUiLCJzdWIiOiI4ZTcxYTc3Ni01Y2YxLTQyN2ItYTBhOS1hOTQ2YzFkMWRhNWUiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoibGNwIiwic2Vzc2lvbl9zdGF0ZSI6ImM1OTcxMjZkLTY1YTYtNDM5Yy04YTVkLWYxMzg0NmI5YzgxMSIsImF1dGhvcml6YXRpb24iOnsicGVybWlzc2lvbnMiOlt7InNjb3BlcyI6WyJQT1NUIl0sInJzaWQiOiIzZGEzMDdjYi0xZGE0LTQ3OTctODVkMy1jYWMyNzQyYjU0OWQiLCJyc25hbWUiOiJsY3AtcmVzb3VyY2UifV19LCJzY29wZSI6IiIsInNpZCI6ImM1OTcxMjZkLTY1YTYtNDM5Yy04YTVkLWYxMzg0NmI5YzgxMSJ9.Mou1Ay2SD6Kbfd2T39WM5aw-bvnivv-0pSDPQquGMIs","token_type":"Bearer","not-before-policy":0}
+```
+
+
+посомтреть на "expires_in":600,"refresh_expires_in":1692, "upgraded":false
+
+и посмотреть чтобы использовать "refresh_token"
+
+Будто на вот этот метод можно навесить прокси, который будет брать значения из гугл кэша (но не уверен пиздец) - надо проверять это
+![[Pasted image 20240614183545.png]]
+
+но надо почитать еще про кэширование со стороны Keycloak
+
+
